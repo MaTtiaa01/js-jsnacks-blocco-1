@@ -17,8 +17,8 @@ if (firstWord.length > secondWord.length) {
 }else if (secondWord.length > firstWord.length) {
     console.log(secondWord);
     console.log(firstWord);
-    shortWordEl.innerHTML = secondWord;
-    longWordEl.innerHTML = firstWord;
+    longWordEl.innerHTML = secondWord;
+    shortWordEl.innerHTML = firstWord;
 } else{
     console.log("le parole sono lunghe uguali");
     shortWordEl.innerHTML = "le parole sono lunghe uguali";
