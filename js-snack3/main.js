@@ -1,11 +1,14 @@
 //Il software deve chiedere per 10 volte all’utente di inserire un numero.
 
 let userNumber;
+function somma(){
 
-for (let i = 0; i < 10; i++) {
-    userNumber = Number(prompt("Inserire un numero"));
-    console.log(userNumber);
-    calcolo = userNumber 
+    userNumber = 0
+    for (let i = 0; i < 10; i++) {
+        userNumber = Number(prompt("Inserire un numero"));
+        console.log(userNumber);
+        
+    }
 }
 
 
