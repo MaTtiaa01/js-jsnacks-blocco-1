@@ -12,27 +12,28 @@ const nameList = [
 //chiedi all’utente il suo nome 
 
 const userName = prompt("Qual'è il tuo nome?");
-
+let enjoyParty = false
 //comunicagli se può partecipare o no alla festa.
 let i = 0;
 let nameCheck;
 while (i < nameList.length) {
     nameCheck = nameList[i];
     console.log(nameCheck);
-    i++
     if (nameCheck === userName) {
-        console.log("puoi entrate");
-    }else{
-        console.log("non puoi entrare");
+        enjoyParty = true
+    }else {
+        enjoyParty = false
     }
+
+
+
+    i++
 }
-
-
 
 
 console.log("sono fuori da while");
 
-if (nameCheck === userName) {
+if (enjoyParty) {
     console.log("puoi entrate");
 }else{
     console.log("non puoi entrare");
