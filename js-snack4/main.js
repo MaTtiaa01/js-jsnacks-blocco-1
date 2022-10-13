@@ -21,10 +21,7 @@ while (i < nameList.length) {
     console.log(nameCheck);
     if (nameCheck === userName) {
         enjoyParty = true
-    }else {
-        enjoyParty = false
     }
-
 
 
     i++
