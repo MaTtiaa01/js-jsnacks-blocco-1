@@ -17,6 +17,7 @@
 let userNumber;
 let sum;
 let i = 0;
+let somma = document.querySelector(".somma");
 while (i < 10) {
     userNumber = Number(prompt("Inserire un numero"));
     console.log(userNumber);
@@ -26,6 +27,7 @@ while (i < 10) {
 }
 
 console.log(sum);
+somma.innerHTML = sum;
 
 
 
