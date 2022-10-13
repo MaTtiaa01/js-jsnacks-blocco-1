@@ -1,22 +1,35 @@
 //Il software deve chiedere per 10 volte all’utente di inserire un numero.
 
-let userNumber;
-function somma(){
+// let userNumber;
+// let sum;
 
-    userNumber = 0
-    for (let i = 0; i < 10; i++) {
-        userNumber = Number(prompt("Inserire un numero"));
-        console.log(userNumber);
-        
-    }
-}
+// let somma = document.querySelector(".somma");
+//     for (let i = 0; i < 10; i++) {
+//         userNumber = Number(prompt("Inserire un numero"));
+//         console.log(userNumber);
+//         sum += userNumber;
+//     }
 
+// somma.innerHTML = sum;
 
 
 //Il programma stampa la somma di tutti i numeri inseriti. 
+let userNumber;
+let sum;
+let i = 0;
+while (i < 10) {
+    userNumber = Number(prompt("Inserire un numero"));
+    console.log(userNumber);
+    sum += userNumber;
 
-let somma = document.querySelector(".somma");
+    i++
+}
 
-somma.innerHTML = calcolo;
+console.log(sum);
+
+
+
+
+
 
 
