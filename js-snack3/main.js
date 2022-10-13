@@ -15,7 +15,7 @@
 
 //Il programma stampa la somma di tutti i numeri inseriti. 
 let userNumber;
-let sum;
+let sum = 0
 let i = 0;
 let somma = document.querySelector(".somma");
 while (i < 10) {
